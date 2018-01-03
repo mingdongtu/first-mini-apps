@@ -1,0 +1,8 @@
+
+<!--  只需要引入movie-list即可 ：层层引入思想 -->
+<import src="movie-list/movie-list-template.wxml"/>
+<view>
+  <template is="movieListTemplate" />
+  <template is="movieListTemplate" />
+  <template is="movieListTemplate" />
+</view>

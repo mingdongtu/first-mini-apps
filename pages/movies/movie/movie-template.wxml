@@ -1,0 +1,9 @@
+<import src="../stars/stars-template.wxml" />
+<template  name="movieTemplate">
+    <view class="movie-container">
+       <image class="movie-img" src="/image/name.jpg"></image>
+      <text class="movie-title">你的名字.</text>
+      <!--将stars文件内容引入过来  -->
+      <template is="starsTemplate" />
+    </view>
+</template>
